@@ -1,0 +1,100 @@
+/* Styles Généraux */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header & Menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid #333;
+    padding: 5px 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a.active {
+    border: 1px solid #333;
+    padding: 5px 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-box {
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.location {
+    font-size: 1.2rem;
+}
+
+/* Programme */
+.program {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.program h2 {
+    border-bottom: 2px solid #333;
+    display: inline-block;
+}
+
+.program ul {
+    list-style-type: ".";
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
